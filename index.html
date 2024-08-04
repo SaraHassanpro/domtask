@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Taskes</title>
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- write text from input section  -->
+    <div class="container m-3">
+        <div class="row">
+            <div class="col-md-4 text-center">
+
+                <h3 id="deme">Lorem ipsum dolor sit amet.</h3>
+                <input type="text" class="mouse" value="click">
+            </div>
+        </div>
+    </div>
+
+    <!-- 3button 3 colors method 1  -->
+    <div class="container m-3">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h3 id="demo">Lorem ipsum dolor -by Target Way.</h3>
+                <div>
+                    <button id="red" class="hello">Red</button>
+                    <button id="blue" class="hello">Blue</button>
+                    <button id="green" class="hello">green</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 3button 3 colors method 2  -->
+    <div class="container m-3">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h3 id="demo2">Lorem ipsum dolor - by foreach way .</h3>
+                <div>
+                    <button data-color="red" class="hello2">Red</button>
+                    <button data-color="blue" class="hello2">Blue</button>
+                    <button data-color="green" class="hello2">green</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- To do list Section  -->
+
+    <div class="container m-3">
+        <div class="row">
+            <div class="col-lg-9 text-center">
+                <h3>To Do List</h3>
+                <form>
+                    <input type="text" placeholder="Enter what you have do" id="newTask" name="toDo"
+                        class="w-100 my-3 form-conterol">
+                    <input type="submit" value="Save" class="btn btn-block btn-success">
+                </form>
+                <ol id="result">
+                </ol>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- java script links-bootstrap  -->
+    <script src="javascript/jquery.slim.min.js"></script>
+    <script src="javascript/popper.min.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <script src="javascript/main.js"></script>
+</body>
+
+</html>
